@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1D4B1B981EC39EEB007E1810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4B1B971EC39EEB007E1810 /* AppDelegate.swift */; };
-		1D4B1B9A1EC39EEB007E1810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4B1B991EC39EEB007E1810 /* ViewController.swift */; };
+		1D4B1B9A1EC39EEB007E1810 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4B1B991EC39EEB007E1810 /* RecordSoundsViewController.swift */; };
 		1D4B1B9D1EC39EEB007E1810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4B1B9B1EC39EEB007E1810 /* Main.storyboard */; };
 		1D4B1B9F1EC39EEB007E1810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4B1B9E1EC39EEB007E1810 /* Assets.xcassets */; };
 		1D4B1BA21EC39EEB007E1810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4B1BA01EC39EEB007E1810 /* LaunchScreen.storyboard */; };
 		1D4B1BAD1EC39EEB007E1810 /* NanoDgreePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4B1BAC1EC39EEB007E1810 /* NanoDgreePracticeTests.swift */; };
 		1D4B1BB81EC39EEB007E1810 /* NanoDgreePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4B1BB71EC39EEB007E1810 /* NanoDgreePracticeUITests.swift */; };
+		1DF2CF0A1EC54ED800D061D6 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF2CF091EC54ED800D061D6 /* PlaySoundsViewController.swift */; };
+		1DF2CF0C1EC6638600D061D6 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF2CF0B1EC6638600D061D6 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		1D4B1B941EC39EEB007E1810 /* NanoDgreePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoDgreePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4B1B971EC39EEB007E1810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D4B1B991EC39EEB007E1810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D4B1B991EC39EEB007E1810 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		1D4B1B9C1EC39EEB007E1810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D4B1B9E1EC39EEB007E1810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D4B1BA11EC39EEB007E1810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		1D4B1BB31EC39EEB007E1810 /* NanoDgreePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoDgreePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4B1BB71EC39EEB007E1810 /* NanoDgreePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoDgreePracticeUITests.swift; sourceTree = "<group>"; };
 		1D4B1BB91EC39EEB007E1810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF2CF091EC54ED800D061D6 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		1DF2CF0B1EC6638600D061D6 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				1D4B1B971EC39EEB007E1810 /* AppDelegate.swift */,
-				1D4B1B991EC39EEB007E1810 /* ViewController.swift */,
+				1D4B1B991EC39EEB007E1810 /* RecordSoundsViewController.swift */,
+				1DF2CF091EC54ED800D061D6 /* PlaySoundsViewController.swift */,
+				1DF2CF0B1EC6638600D061D6 /* PlaySoundsViewController+Audio.swift */,
 				1D4B1B9B1EC39EEB007E1810 /* Main.storyboard */,
 				1D4B1B9E1EC39EEB007E1810 /* Assets.xcassets */,
 				1D4B1BA01EC39EEB007E1810 /* LaunchScreen.storyboard */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D4B1B9A1EC39EEB007E1810 /* ViewController.swift in Sources */,
+				1D4B1B9A1EC39EEB007E1810 /* RecordSoundsViewController.swift in Sources */,
+				1DF2CF0C1EC6638600D061D6 /* PlaySoundsViewController+Audio.swift in Sources */,
+				1DF2CF0A1EC54ED800D061D6 /* PlaySoundsViewController.swift in Sources */,
 				1D4B1B981EC39EEB007E1810 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +524,7 @@
 				1D4B1BBE1EC39EEB007E1810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D4B1BBF1EC39EEB007E1810 /* Build configuration list for PBXNativeTarget "NanoDgreePracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				1D4B1BC11EC39EEB007E1810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D4B1BC21EC39EEB007E1810 /* Build configuration list for PBXNativeTarget "NanoDgreePracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				1D4B1BC41EC39EEB007E1810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
