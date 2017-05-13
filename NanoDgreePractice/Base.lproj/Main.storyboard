@@ -36,10 +36,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Im7-Yq-6vb">
-                                <rect key="frame" x="145" y="448" width="84" height="84"/>
+                                <rect key="frame" x="155" y="448" width="64" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="84" id="oLk-Aa-ndb"/>
-                                    <constraint firstAttribute="height" constant="84" id="uwh-Zv-xoP"/>
+                                    <constraint firstAttribute="width" constant="64" id="oLk-Aa-ndb"/>
+                                    <constraint firstAttribute="height" constant="64" id="uwh-Zv-xoP"/>
                                 </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
@@ -167,6 +167,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Wgc-fN-rAF" firstAttribute="top" secondItem="JXM-j8-NHl" secondAttribute="bottom" constant="20" id="Api-V5-4aH"/>
                             <constraint firstItem="JXM-j8-NHl" firstAttribute="top" secondItem="dDL-s9-cUF" secondAttribute="bottom" id="jTM-NM-woG"/>
